@@ -6,7 +6,7 @@ import socket
 hostname = socket.gethostname()
 
 p = subprocess.Popen(["powershell.exe", 
-              "%CHIA_ROOT%\\madmax.ps1"], 
+              "./madmax.ps1"], 
               stdout=sys.stdout)
 p.communicate()
 now = datetime.now().strftime("%d.%m.%Y %H:%M")

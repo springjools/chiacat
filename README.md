@@ -21,7 +21,7 @@ Run like this:
 
 python3 chiacat.py
 
-It opens powershell with an argument named  madmax.ps1. So put a file named madmax.ps1 in a location of your choice and add this to the %PATH% variable in windows. An example script is provided, but it needs your pool contract and farmer key. 
+It opens powershell with an argument named  madmax.ps1, currently it looks for this file in the same folder. An example script is provided, but it needs your pool contract and farmer key. 
 
 Enter your telegram bot token and chat id in telegramMsg.py. The chat id is the group or person who should receive the notifications.
 
