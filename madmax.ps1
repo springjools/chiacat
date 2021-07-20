@@ -1,0 +1,1 @@
+chia_plot -n 4 -r 12 -G --tmpdir C:\Temp\ --tmpdir2 D:\Temp\ --finaldir \\server\chia\ -c xch1234.... -f 12345
